@@ -9,7 +9,7 @@ With versioning ugly things like **globalThis** can be avoided in favor of desir
 ```
 use 10 // turn on features of 10th version of JS
 
-console.log(global.environment) // 'node', 'browser', etc.
+console.log(global) // exists in browsers too
 ```
 So cool, progressive kids would enjoy new features and old programs would still work fine.
 
