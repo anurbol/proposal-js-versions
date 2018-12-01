@@ -29,15 +29,15 @@ var foo // error "`var` is deprecated, use `let` or `const`"
 There is this article on the web: http://exploringjs.com/es6/ch_one-javascript.html
 Non of the reasons seem convincing enough. 
 
-> Engines become bloated, because they need to implement the semantics of all versions >
+> Engines become bloated, because they need to implement the semantics of all versions
 
 New versions don't necessarily implement heavy features. In the examples above, there is no single heavy feature to be implemented. Exposing `global` variable in new versions, instead of `globalThis` for all is not a heavy feature. Fixing `typeof null` and removing `var` is not something complex either.
 
-> Programmers need to remember how the versions differ. >
+> Programmers need to remember how the versions differ.
 
 Programmers already need to remember how `strict mode` differs from sloppy mode. They also don't need to learn new versions, if they don't want. Likely, they don't need to learn new features, if they don't want. In the end, new versions are supposed to make life easier for programmers, not for some other people. 
 
-> Code becomes harder to refactor, because you need to take versions into consideration when you move pieces of code. >
+> Code becomes harder to refactor, because you need to take versions into consideration when you move pieces of code.
 
 This is already the case with `strict mode`. In general, yes, this is a problem, but is it really big enough to bear with things like `globalThis`? Also, the whole programming is about trade-offs. You almost never can get something good without sacrificing some other thing.
 
