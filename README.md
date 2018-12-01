@@ -21,6 +21,30 @@ typeof null // 'null', not 'object'!
 var foo // error "`var` is deprecated, use `let` or `const`"
 ```
 
+## A note on environment checking
+
+A big showstopper for introducing `global` to browsers was the fact that folks 
+check the environment like this:
+
+```js
+if (global) {
+   // run code for node.js
+} else {
+   // run code for browsers
+}
+
+```
+
+With the proposed feature it should be and can be something like this:
+
+```js
+if (global.environment === 'node') {
+    // run code for node.js
+} else if (global.environment === 'browser') {
+    // run code for browsers
+} else { /* other platforms */}
+```
+
 ## Previous art
 
 There is already the strict mode that is used extensively, so versioning is not something impossible:
