@@ -26,6 +26,8 @@ var foo // error "`var` is deprecated, use `let` or `const`"
 
 ## A note on environment checking
 
+This may be considered as an off-topic, and should be in a separate proposal. However, left it here for demonstration purposes.
+
 A big showstopper for introducing `global` to browsers was the fact that folks 
 check the environment like this:
 
