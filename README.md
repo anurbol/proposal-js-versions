@@ -35,6 +35,8 @@ if (global) {
 
 ```
 
+Obviously the above code look hackish and does not show the intention of the developer.
+
 With the proposed feature it should be and can be something like this:
 
 ```js
