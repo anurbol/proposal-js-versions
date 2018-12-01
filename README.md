@@ -11,6 +11,7 @@ use 10 // turn on features of 10th version of JS
 
 console.log(global.environment) // 'node', 'browser', etc.
 ```
+So cool, progressive kids would enjoy new features and old programs would still work fine.
 
 Also, old weirdness like this can be eliminated:
 
