@@ -7,7 +7,7 @@ This [proposal](https://github.com/tc39/proposal-global) led me to the idea of v
 With versioning ugly things like **globalThis** can be avoided in favor of desired-by-everyone **global**:
 
 ```js
-use 10 // turn on features of 10th version of JS
+'use 10' // turn on features of 10th version of JS
 
 console.log(global) // exists in browsers too
 ```
@@ -57,6 +57,6 @@ if (global.environment === 'node') {
 There is already the strict mode that is used extensively, so versioning is not something impossible:
 
 ```
-use strict
+'use strict'
 ```
 
