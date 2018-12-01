@@ -15,9 +15,12 @@ So cool, progressive kids would enjoy new features and old programs would still 
 
 Also, old weirdness like this can be eliminated:
 
-```
+```js
 typeof null // 'null', not 'object'!
+```
 
+Or some deprecated stuff can be disallowed:
+```js
 var foo // error "`var` is deprecated, use `let` or `const`"
 ```
 
