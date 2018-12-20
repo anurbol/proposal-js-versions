@@ -26,8 +26,8 @@ var foo // error "`var` is deprecated, use `let` or `const`"
 
 ## Arguments against
 
-There is this article on the web: http://exploringjs.com/es6/ch_one-javascript.html
-Non of the reasons seem convincing enough. 
+There is an article on the web: http://exploringjs.com/es6/ch_one-javascript.html. While Axel Rauschmayer (the biggest authority not only for me) claims the reasons listed there are relevant and important, 
+non of them seemed convincing enough for me. 
 
 > Engines become bloated, because they need to implement the semantics of all versions
 
