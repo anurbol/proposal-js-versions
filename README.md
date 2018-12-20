@@ -78,4 +78,4 @@ There is already the strict mode that is used extensively:
 'use strict'
 ```
 
-therefore versioning is not something impossible
+therefore versioning of course is not something impossible.
