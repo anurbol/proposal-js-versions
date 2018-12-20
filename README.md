@@ -39,7 +39,7 @@ Programmers already need to remember how `strict mode` differs from sloppy mode.
 
 > Code becomes harder to refactor, because you need to take versions into consideration when you move pieces of code.
 
-This is already the case with `strict mode`. In general, yes, this is a problem, but is it really big enough to bear with things like `globalThis`? Also, the whole programming is about trade-offs. You almost never can get something good without sacrificing some other thing.
+This is already the case with `strict mode`. In general, yes, this is a problem, but is it really big enough to bear with things like `globalThis` (and other such things yet to come because of compromises)? Also, the whole programming is about trade-offs. You almost never can get something good without sacrificing some other thing.
 
 
 ## A note on environment checking
