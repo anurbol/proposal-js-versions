@@ -1,10 +1,10 @@
 # Proposal to introduce versions to Javascript (ECMAScript)
 
-This [proposal](https://github.com/tc39/proposal-global) led me to the idea of versioning Javascript. The mentioned proposal suggested some ridiculous and wide-discussed thing such as **globalThis**. You can read about it on the proposal's repo, but the reason why it was introduced is backwards-compatibility. And what is the solution to a swelling backward-compatibility problem? It's versioning.
+This [proposal](https://github.com/tc39/proposal-global) led me to the idea of versioning Javascript. The mentioned proposal suggested some arguably ridiculous and wide-discussed thing such as **globalThis**. You can read about it on the proposal's repo, but the reason why it was introduced is backwards-compatibility. And what is the solution to the swelling backward-compatibility problem? That would be versioning.
 
 ## Examples
 
-With versioning ugly things like **globalThis** can be avoided in favor of desired-by-everyone **global**:
+With versioning weird things like **globalThis** can be avoided in favor of desired-by most of the people **global**:
 
 ```js
 'use 10' // turn on the features of 10th version of JS
